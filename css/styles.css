@@ -1,0 +1,31 @@
+html
+{
+    --color-current:#2196F3;
+    --coolor-black:#000000;
+}
+.Logo{
+    color: var(--coolor-black);
+    font-weight: bold;
+    font-size: 26px;
+}
+.Logo>span
+{
+color: var(--color-current);
+}
+.List
+{
+    list-style-type:none;
+}
+a:link {
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.Nav-List
+{
+    color: var(--coolor-black);
+}
+.Nav-Current
+{
+    color: var(--color-current);
+}
