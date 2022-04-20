@@ -2,30 +2,77 @@ html
 {
     --color-current:#2196F3;
     --coolor-black:#000000;
+    --color-secondary:#757575;
+    font-family: 'Roboto', sans-serif;
 }
-.Logo{
-    color: var(--coolor-black);
-    font-weight: bold;
+*{text-decoration:none;}
+.list{
+    list-style-type: none;
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
     font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    text-decoration:none;
+    color: #000000;
+    text-shadow: 0px 4px 4px hsla(0, 0%, 0%, 0.25);
 }
-.Logo>span
-{
-color: var(--color-current);
+.logo-color{
+    color: #2196F3;
 }
-.List
-{
-    list-style-type:none;
+.header-menu{
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
-a:link {
-    text-decoration: none;
-    display: inline-block;
-  }
+.nav-list-link-current{
+    
+    color: #2196F3;
+}
+.nav-links{
+    color: #212121;
+}
 
-.Nav-List
-{
-    color: var(--coolor-black);
+.list-links{
+    color: #757575;
 }
-.Nav-Current
+.link:hover,
+.link:focus{
+    color: #2196F3;
+}
+.section-hero
 {
-    color: var(--color-current);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    /* color: #FFFFFF; */
+}
+.section-hero-button{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    cursor: pointer;
+    /* identical to box height, or 188% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    /* color: #FFFFFF; */
 }

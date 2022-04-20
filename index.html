@@ -4,35 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>WebStudio</title>
   </head>
   <body>
     <!-- Шапка страницы-->
-    <header>
+    <header class="header-menu">
       <nav>
-        <a href="/" lang="en" class="Logo"><span>Web</span>Studio</a>
-        <ul class="">
-          <li><a class="Nav-Current" href="./index.html">Студия</a></li>
-          <li><a class="Nav-List" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="Nav-List" href="">Контакты</a></li>
+        <a href="#" lang="en" class="logo"><span class="logo-color">Web</span>Studio</a>
+        <ul class="list">
+          <li><a class="nav-list-link-current" href="./index.html">Студия</a></li>
+          <li><a class="nav-links link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="nav-links link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul  class="List">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="list">
+        <li><a class="list-links link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="list-links link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
       <!-- Шапка -->
-      <section>
+      <section class="section-hero">
         <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+        <button class="section-hero-button" type="button">Заказать услугу</button>
       </section>
       <!--Особености-->
       <section>
         <h2>Особбености</h2>
-        <ul class="List">
+        <ul class="list">
           <li>
             <h3>Внимание к деталям</h3>
             <p>
@@ -66,7 +69,7 @@
       <!--Чем мы занимаемся-->
       <section>
         <h2>Чем мы занимаемся</h2>
-        <ul class="List">
+        <ul class="list">
           <li>
             <img
               src="./imges/development.jpg"
@@ -96,7 +99,7 @@
       <!--Наша команда-->
       <section>
         <h2>Команда</h2>
-        <ul class="List">
+        <ul class="list">
           <li>
             <img
               src="./imges/igor-demyanenko.jpg"
@@ -144,7 +147,7 @@
     <footer>
       <a href="/" lang="en"><span>Web</span>Studio</a>
       <address>г. Киев, пр-т Леси Украинки, 26</address>
-      <ul class="List">
+      <ul class="list">
         <li><a href="mailto:info@example.com">info@example.com</a></li>
         <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
       </ul>
